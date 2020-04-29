@@ -6,7 +6,7 @@ export default class Header extends Component {
             <div>
                 <header>
                     <h1>ANIMALIA</h1>
-                    <h2>What kind of weird animal images do you want to see today?</h2>
+                    <h2>What kind of weird "animal" images do you want to see today?</h2>
                 </header>
             </div>
         )
