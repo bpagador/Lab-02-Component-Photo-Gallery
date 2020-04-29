@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class Animals extends Component {
+export default class ImageItem extends Component {
     render() {
         return <li>
             <div className="info-container">
@@ -15,8 +15,8 @@ export default class Animals extends Component {
                 
             </div>
 
-            <p className="animal-horns">{this.props.animal.horns}</p>
-            <p className="animal-keyword">{this.props.animal.keyword}</p>
+            <p className="animal-horns">Horns: {this.props.animal.horns}</p>
+            <p className="animal-keyword">Category: {this.props.animal.keyword}</p>
         </li>
     }
 }
